@@ -4,7 +4,7 @@ Enter the dungeon.
 
 ```bash
 $ bakerx pull CSC-Devops/Images#Spring2020 ubuntu-node-dungeon
-$ bakerx run dung0 ubuntu-node-dungeon
+$ bakerx run dung0 ubuntu-node-dungeon --memory 2048
 ```
 
 ## Overview
