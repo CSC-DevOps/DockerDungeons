@@ -16,11 +16,18 @@ $ bakerx run dung0 ubuntu-node-dungeon --memory 2048
 Run a simple node.js webserver
 
 ```bash
-cd /srv/level0
+root@nanobox:/# LVL0
+You enter level 0.
+You see a server.js file in your directory.
+
+You try to run it with 'node server.js'
+Nothing happens.
+
 ```
 
 Challenges:
 
+* Examine the contents of server.js.
 * Install nodejs.
 * Find out your ip address.
 * Visit site in your web browser.
@@ -29,17 +36,30 @@ Challenges:
 #### Level1
 
 ```bash
-cd /srv/level1
+LVL1
 ```
 
 Run an express node.js webserver.
 
 Challenges:
 
-* Install packages
-* Resolve port error.
-* Send command to check if server is running from your host computer.
-* 🔮Add a new endpoint to webserver and check from your host computer.
+* Install packages.
+* Start server
+* Inspect code (`cat`) and send payload to server (hint: `curl`).
+
+#### Finish
+
+If you send the payload to the server, then type the command `ASCEND`. You should complete the dungeon! Taking any shortcuts might lead to failure!
+
+```bash
+Golden key found...
+
+The golden key unlocks the invisible stairs. You climb and see daylight.
+The dungeon begins to crumble...but you escape.
+Connection to 127.0.0.1 closed by remote host.
+Connection to 127.0.0.1 closed.
+```
+
 
 
 
