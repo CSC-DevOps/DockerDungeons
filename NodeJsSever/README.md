@@ -1,5 +1,14 @@
 # Docker Dungeon > NodeJS
 
+First, install bakerx:
+
+```bash
+git clone https://github.com/ottomatica/bakerx
+cd bakerx
+npm install
+npm link
+```
+
 Enter the dungeon.
 
 ```bash
