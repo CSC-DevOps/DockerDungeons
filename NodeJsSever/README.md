@@ -11,7 +11,7 @@ npm link
 
 Enter the dungeon.
 
-```bash
+```
 $ bakerx pull CSC-Devops/Images#Spring2020 ubuntu-node-dungeon
 $ bakerx run dung0 ubuntu-node-dungeon --memory 2048
 ```
@@ -20,12 +20,12 @@ $ bakerx run dung0 ubuntu-node-dungeon --memory 2048
 
 ### Levels
 
-#### Level0
+#### Level 0
 
-Run a simple node.js webserver
+Run a simple node.js webserver, to enter level 1
 
-```bash
-root@nanobox:/# LVL0
+```
+root@dungeon:/# LVL0
 You enter level 0.
 You see a server.js file in your directory.
 
@@ -36,24 +36,30 @@ Nothing happens.
 
 Challenges:
 
-* Examine the contents of server.js.
+* Examine the contents of `server.js` file.
 * Install nodejs.
 * Find out your ip address.
 * Visit site in your web browser.
-* 🔮Send command to check if server is running from your host computer.
+* 🔮 Send command to check if server is running from your host computer.
 
-#### Level1
-
-```bash
-LVL1
-```
+#### Level 1
 
 Run an express node.js webserver.
 
+```
+root@dungeon:/srv/level0# LVL1
+localhost [127.0.0.1] 8080 (http-alt) open
+You enter level 1.
+You see a more fancy file in your directory.
+
+You notice a package. But don't know what to do with it
+
+```
+
 Challenges:
 
-* Install packages.
-* Start server
+* Install needed npm packages.
+* Start server (hint: you may need to make a small change in the server code)
 * Inspect code (`cat`) and send payload to server (hint: `curl`).
 
 #### Finish
