@@ -37,7 +37,7 @@ Nothing happens.
 Challenges:
 
 * Examine the contents of `server.js` file.
-* Install nodejs and npm.
+* Install nodejs.
 * Find out your ip address.
 * Visit site in your web browser.
 * 🔮 Send command to check if server is running from your host computer.
@@ -58,7 +58,7 @@ You notice a package. But don't know what to do with it
 
 Challenges:
 
-* Install packages.
+* Install needed npm packages.
 * Start server (hint: you may need to make a small change in the server code)
 * Inspect code (`cat`) and send payload to server (hint: `curl`).
 
