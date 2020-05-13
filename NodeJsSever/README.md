@@ -3,10 +3,7 @@
 First, install bakerx:
 
 ```bash
-git clone https://github.com/ottomatica/bakerx
-cd bakerx
-npm install
-npm link
+npm install ottomatica/bakerx -g
 ```
 
 Enter the dungeon.
@@ -14,6 +11,7 @@ Enter the dungeon.
 ```
 $ bakerx pull CSC-Devops/Images#Spring2020 ubuntu-node-dungeon
 $ bakerx run dung0 ubuntu-node-dungeon --memory 2048
+$ bakerx ssh dung0
 ```
 
 ## Overview
